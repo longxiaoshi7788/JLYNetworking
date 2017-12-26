@@ -6,6 +6,7 @@ target 'JLYNetworking' do
   # use_frameworks!
 
   # Pods for JLYNetworking
+	pod 'AFNetworking', '~> 3.0'
 
   target 'JLYNetworkingTests' do
     inherit! :search_paths
