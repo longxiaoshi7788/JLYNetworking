@@ -16,6 +16,7 @@
 		9F7562401FF23F0E00D424C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F75623E1FF23F0E00D424C6 /* LaunchScreen.storyboard */; };
 		9F7562431FF23F0E00D424C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7562421FF23F0E00D424C6 /* main.m */; };
 		9F75624D1FF23F0E00D424C6 /* JLYNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F75624C1FF23F0E00D424C6 /* JLYNetworkingTests.m */; };
+		9F75625A1FF2A0DE00D424C6 /* JLYHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7562591FF2A0DE00D424C6 /* JLYHTTPSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		9F7562481FF23F0E00D424C6 /* JLYNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLYNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F75624C1FF23F0E00D424C6 /* JLYNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLYNetworkingTests.m; sourceTree = "<group>"; };
 		9F75624E1FF23F0E00D424C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7562581FF2A0DE00D424C6 /* JLYHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLYHTTPSessionManager.h; sourceTree = "<group>"; };
+		9F7562591FF2A0DE00D424C6 /* JLYHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLYHTTPSessionManager.m; sourceTree = "<group>"; };
 		B118750BC70DABF0C44F3C46 /* Pods-JLYNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLYNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLYNetworking/Pods-JLYNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 		DD9475DE9F95D072210B0643 /* libPods-JLYNetworkingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JLYNetworkingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,6 +116,7 @@
 		9F7562321FF23F0E00D424C6 /* JLYNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				9F7562571FF254F400D424C6 /* JLYNetworking */,
 				9F7562331FF23F0E00D424C6 /* AppDelegate.h */,
 				9F7562341FF23F0E00D424C6 /* AppDelegate.m */,
 				9F7562361FF23F0E00D424C6 /* ViewController.h */,
@@ -133,6 +137,15 @@
 				9F75624E1FF23F0E00D424C6 /* Info.plist */,
 			);
 			path = JLYNetworkingTests;
+			sourceTree = "<group>";
+		};
+		9F7562571FF254F400D424C6 /* JLYNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9F7562581FF2A0DE00D424C6 /* JLYHTTPSessionManager.h */,
+				9F7562591FF2A0DE00D424C6 /* JLYHTTPSessionManager.m */,
+			);
+			path = JLYNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F75625A1FF2A0DE00D424C6 /* JLYHTTPSessionManager.m in Sources */,
 				9F7562381FF23F0E00D424C6 /* ViewController.m in Sources */,
 				9F7562431FF23F0E00D424C6 /* main.m in Sources */,
 				9F7562351FF23F0E00D424C6 /* AppDelegate.m in Sources */,
