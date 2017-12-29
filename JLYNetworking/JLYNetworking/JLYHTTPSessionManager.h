@@ -7,7 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JLYRequestTask.h"
+
+typedef void(^JLYRequestCompletionHandler)(id responseObject, NSError *error);
+typedef void(^JLYBatchRequestCompletionHandler)(NSArray <JLYRequestTask *> *tasks, NSError *error);
 
 @interface JLYHTTPSessionManager : NSObject
+
++ (instancetype)shareManager;
+
+- (void)sendGETRequestWithURLString:(NSString *)urlStr
+                         parameters:(NSDictionary *)parameters
+                  completionHandler:(JLYRequestCompletionHandler)completion;
+
+- (void)sendPOSTRequestWithURLString:(NSString *)urlStr
+                          parameters:(NSDictionary *)parameters
+                   completionHandler:(JLYRequestCompletionHandler)completion;
 
 @end

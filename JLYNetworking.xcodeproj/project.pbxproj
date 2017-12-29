@@ -17,6 +17,7 @@
 		9F7562431FF23F0E00D424C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7562421FF23F0E00D424C6 /* main.m */; };
 		9F75624D1FF23F0E00D424C6 /* JLYNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F75624C1FF23F0E00D424C6 /* JLYNetworkingTests.m */; };
 		9F75625A1FF2A0DE00D424C6 /* JLYHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7562591FF2A0DE00D424C6 /* JLYHTTPSessionManager.m */; };
+		AB087F841FF6714300C2AB7F /* JLYRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = AB087F831FF6714300C2AB7F /* JLYRequestTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		9F75624E1FF23F0E00D424C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F7562581FF2A0DE00D424C6 /* JLYHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLYHTTPSessionManager.h; sourceTree = "<group>"; };
 		9F7562591FF2A0DE00D424C6 /* JLYHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLYHTTPSessionManager.m; sourceTree = "<group>"; };
+		AB087F821FF6714300C2AB7F /* JLYRequestTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLYRequestTask.h; sourceTree = "<group>"; };
+		AB087F831FF6714300C2AB7F /* JLYRequestTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLYRequestTask.m; sourceTree = "<group>"; };
 		B118750BC70DABF0C44F3C46 /* Pods-JLYNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLYNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLYNetworking/Pods-JLYNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 		DD9475DE9F95D072210B0643 /* libPods-JLYNetworkingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JLYNetworkingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -144,6 +147,8 @@
 			children = (
 				9F7562581FF2A0DE00D424C6 /* JLYHTTPSessionManager.h */,
 				9F7562591FF2A0DE00D424C6 /* JLYHTTPSessionManager.m */,
+				AB087F821FF6714300C2AB7F /* JLYRequestTask.h */,
+				AB087F831FF6714300C2AB7F /* JLYRequestTask.m */,
 			);
 			path = JLYNetworking;
 			sourceTree = "<group>";
@@ -358,6 +363,7 @@
 				9F75625A1FF2A0DE00D424C6 /* JLYHTTPSessionManager.m in Sources */,
 				9F7562381FF23F0E00D424C6 /* ViewController.m in Sources */,
 				9F7562431FF23F0E00D424C6 /* main.m in Sources */,
+				AB087F841FF6714300C2AB7F /* JLYRequestTask.m in Sources */,
 				9F7562351FF23F0E00D424C6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
